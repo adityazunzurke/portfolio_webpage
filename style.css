@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #001F3F;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px 10%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    z-index: 1000;
+    width: 100%;
+    height: 50px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+.left {
+    color: white;
+    margin-left: 90px;
+    top: 50px;
+}
+
+.left h3 {
+    color: rgba(0, 204, 255, 0.5);
+}
+
+.left p {
+    font-size: 17px;
+}
+
+.right img {
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    background-color: #7b9dac;
+    border-radius: 200px 100px 200px;
+}
+
+/* about section start */
+
+.aboutme {
+    padding-top: 75px;
+    height: 750px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutme h1 {
+    text-align: center;
+    color: white;
+}
+
+.aboutme img {
+    background-color: #7b9dac;
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 360px;
+    margin-left: 43%;
+    margin-top: 60px;
+}
+
+.aboutme h3 {
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+}
+
+.aboutme p {
+    text-align: center;
+    color: white;
+}
+
+/* about section end */
+
+/* education section start */
+
+.education {
+    padding-top: 75px;
+    height: 750px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.education h1 {
+    text-align: center;
+}
+
+.education .left-side {
+    margin-left: 150px;
+    height: 550px;
+}
+
+.education .right-side {
+    margin-right: 150px;
+    height: 550px;
+    margin-inline: 10px;
+}
+
+.side-col {
+    border: 2px solid #7b9dac;
+    margin-top: 7px;
+    text-align: justify;
+    padding: 3px;
+}
+
+/* education section end */
+
+/* skills section start */
+.skills {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 750px;
+    padding-top: 75px;
+}
+
+.skills h1 {
+    text-align: center;
+}
+
+.skills .skill-left {
+    margin-left: 130px;
+    height: 550px;
+}
+
+.skills .skill-right {
+    height: 150px;
+    margin-inline: 10px;
+    height: 550px;
+}
+
+/* skills section end */
+
+/* contact-page start */
+.contact-page {
+    height: 750px;
+    padding-top: 75px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.contact-page h1 {
+    color: white;
+    text-align: center;
+}
+
+.contact-page .input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 13px;
+    color: white;
+}
+
+/* contact-page end */
